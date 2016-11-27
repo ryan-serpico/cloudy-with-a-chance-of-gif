@@ -40,7 +40,7 @@ function draw(){
     var description = weather.weather.description;
     ellipse(100, 100, temp, temp);
     ellipse(300, 100, humidity, humidity);
-    alert(temp);
+//    alert(temp);
   }
 }
 

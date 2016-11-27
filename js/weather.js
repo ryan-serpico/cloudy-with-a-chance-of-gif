@@ -35,11 +35,12 @@ function gotData(data){
 function draw(){
   background(0);
   if (weather){
-    var temp = weather.main.temp
-    var humidity = weather.main.humidity
-    var description = weather.weather.description
+    var temp = weather.main.temp;
+    var humidity = weather.main.humidity;
+    var description = weather.weather.description;
     ellipse(100, 100, temp, temp);
     ellipse(300, 100, humidity, humidity);
+    alert(temp);
   }
 }
 
@@ -47,7 +48,7 @@ function draw(){
 
 // function setup(){
 //   noCanvas();
-//   var url = apiG + apiKeyG + description;
+//   var url = apiG + apiKeyG + query;
 //   loadJSON(url, gotData);
 // }
 //

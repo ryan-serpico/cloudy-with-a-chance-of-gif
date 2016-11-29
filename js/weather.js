@@ -1,14 +1,13 @@
-// Giphy api variables
-var apiG = "http://api.giphy.com/v1/gifs/search?";
-var apiKeyG = "&api_key=dc6zaTOxFJmzC";
-var query = "&q=sunny";
-
-
 // Open Weather Map variables
 var weather;
 var api= 'http://api.openweathermap.org/data/2.5/weather?q='
 var apiKey = '&APPID=79b31a94c523013cc25062224cf470ca';
 var units = '&units=imperial';
+
+// Giphy api variables
+var apiG = "http://api.giphy.com/v1/gifs/search?";
+var apiKeyG = "&api_key=dc6zaTOxFJmzC";
+var query = "&q=sunny";
 
 var input;
 
@@ -35,11 +34,11 @@ function gotData(data){
 function draw(){
   background(0);
   if (weather){
-    var temp = weather.main.temp;
-    var humidity = weather.main.humidity;
+    // var temp = weather.main.temp;
+    // var humidity = weather.main.humidity;
     var description = weather.weather[0].description;
-    ellipse(100, 100, temp, temp);
-    ellipse(300, 100, humidity, humidity);
+    // ellipse(100, 100, temp, temp);
+    // ellipse(300, 100, humidity, humidity);
    alert(description);
   }
 }

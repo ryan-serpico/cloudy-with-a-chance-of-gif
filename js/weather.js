@@ -37,13 +37,12 @@ function draw(){
   if (weather){
     var temp = weather.main.temp;
     var humidity = weather.main.humidity;
-    var description = weather.weather.description;
+    var description = weather.weather[0].description;
     ellipse(100, 100, temp, temp);
     ellipse(300, 100, humidity, humidity);
-//    alert(temp);
+   alert(description);
   }
 }
-
 // // This is where the GIFs come from
 
 // function setup(){

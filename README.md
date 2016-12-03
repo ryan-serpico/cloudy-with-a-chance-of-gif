@@ -25,4 +25,4 @@ Visual changes in week two can be summed up in one word: Subtraction. I continue
 
 I fear that if I don't get this figured out by Sunday night, I may just scrap all of the js I have so far and try something else. Thankfully, in my research I came across a web app someone created online that is essentially what I'm trying to do with weather and Gifs. He used AJAX, however, which I have barely any understanding of. He thankfully put his work on [Github](https://github.com/jeffersonlam/weathery), so I may be able to work with what he had and reverse engineer it.
 
-**If for some reason, GitHub still isn't playing well with the APIs, [here is a link to my site with a live version](http://serpico-lab.com/cloudy-with-a-chance-of-gif/). 
+**If for some reason, GitHub still isn't playing well with the APIs, [here is a link to my site with a live version](http://serpico-lab.com/cloudy-with-a-chance-of-gif/)**. 

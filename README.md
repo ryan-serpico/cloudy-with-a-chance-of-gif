@@ -25,4 +25,21 @@ Visual changes in week two can be summed up in one word: Subtraction. I continue
 
 I fear that if I don't get this figured out by Sunday night, I may just scrap all of the js I have so far and try something else. Thankfully, in my research I came across a web app someone created online that is essentially what I'm trying to do with weather and Gifs. He used AJAX, however, which I have barely any understanding of. He thankfully put his work on [Github](https://github.com/jeffersonlam/weathery), so I may be able to work with what he had and reverse engineer it.
 
-**If for some reason, GitHub still isn't playing well with the APIs, [here is a link to my site with a live version](http://serpico-lab.com/cloudy-with-a-chance-of-gif/)**. 
+**If for some reason, GitHub still isn't playing well with the APIs, [here is a link to my site with a live version](http://serpico-lab.com/cloudy-with-a-chance-of-gif/)**.
+
+# Week 3 release notes
+
+Week 3 saw me finally square all the issues that were plaguing my code. In came down the the fact that I had two different functions with the same name and that I needed to use a callback function. After I got all of that working, I finally got to style the app.
+
+## What happened this week
+- As mentioned, I changed the name of one of the functions in my code.
+- Incorporated a callback function so that the the Giphy API would be called right after the Open Weather API completed.
+- Added bootstrap.
+- Styled the search box, got rid of the search button.
+- Added Font Awesome for the search icon.
+- Added Open Graph Protocol
+- Added a bit of code for the viewport so that the browser doesn't zoom into the page and distort everything.
+- Added a favicon
+- Added an about page.
+- Added a bit of code that displays the actual weather description. I discovered that for as fun as getting random gifs is, it can sometimes not convey the actual weather, or can even be misleading.
+- The user can click or tap return to search rather than clicking or tapping a search button.

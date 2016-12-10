@@ -13,6 +13,14 @@ var button = ""
 
 var input;
 
+// This submits the query when enter is pressed.
+document.getElementById("city").addEventListener("keydown", function(e) {
+    if (!e) { var e = window.event; }
+
+    // Enter is pressed
+    if (e.keyCode == 13) { weatherAsk(); }
+}, false);
+
 function setup(){
   button = select('#submit');
   button.mousePressed(weatherAsk);
@@ -36,6 +44,7 @@ function draw(){
   description = weather.weather[0].description;
    noLoop();
    work();
+   textReplace();
   }
 }
 
@@ -48,4 +57,8 @@ function work(){
 
 function gotData(giphy){
   createImg(giphy.data.image_url);
+}
+
+function textReplace(){
+document.getElementById("demo").innerHTML = description;
 }

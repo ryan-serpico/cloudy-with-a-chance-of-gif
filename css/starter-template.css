@@ -1,7 +1,100 @@
 body {
   padding-top: 50px;
+  background-color: #FFF6E5;
 }
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+}
+
+/*All this is doing is centering the search box. You should probably change this at the end.*/
+
+
+.box{
+  margin: 60px auto;
+  width: 300px;
+  height: 50px;
+}
+
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.container-1 input#city::-webkit-input-placeholder {
+   color: #000;
+}
+
+.container-1 input#city:-moz-placeholder { /* Firefox 18- */
+   color: #000;
+}
+
+.container-1 input#city::-moz-placeholder {  /* Firefox 19+ */
+   color: #000;
+}
+
+.container-1 input#city:-ms-input-placeholder {
+   color: #000;
+}
+
+.icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #000;
+}
+
+.container-1 input#city:hover, .container-1 input#city:focus, .container-1 input#city:active{
+    outline:none;
+    background: #F0DFCC;
+  }
+
+  .container-1 input#city{
+  width: 300px;
+  height: 50px;
+  background: #E8D8C5;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #000;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+
+    -webkit-transition: background .25s ease;
+  -moz-transition: background .25s ease;
+  -ms-transition: background .25s ease;
+  -o-transition: background .25s ease;
+  transition: background .25s ease;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  max-width: 100%;
+
+}
+
+p {
+  font-size: 16px;
+}
+
+.btn {
+  display: none;
 }
